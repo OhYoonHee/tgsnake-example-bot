@@ -1,0 +1,16 @@
+{
+  "name": "tgsnake-example",
+  "version": "0.0.5",
+  "description": "Tgsnake bot example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Oh_Yoon_hee",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "telegram": "^1.7.15",
+    "tgsnake": "https://github.com/butthx/tgsnake.git#master"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tgsnake-example-typescript",
+  "version": "0.0.5",
+  "description": "Tgsnake bot example for typescript",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node dist",
+    "build": "tsc --build tsconfig.json"
+  },
+  "author": "Oh_Yoon_Hee",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^16.3.2",
+    "dotenv": "^10.0.0",
+    "telegram": "^1.7.15",
+    "tgsnake": "https://github.com/butthx/tgsnake.git#master",
+    "typescript": "^4.3.5"
+  }
+}
